@@ -6,7 +6,9 @@ This is a module for handling greetings in your application.
 
 To install the module, run the following command:
 
-```go get github.com/willbipo/greetings```
+```bash
+go get github.com/willbipo/greetings
+```
 
 ## Examples
 
@@ -14,7 +16,7 @@ Here are some examples of how to use the `greetings` module:
 
 ### Function ```Hello(name string)```
 
-```
+```go
 package main
 
 import (
@@ -40,7 +42,7 @@ Returns:
 
 ### Function ```Hellos(names []string)```
 
-```
+```go
 package main
 
 import (
